@@ -1,0 +1,2 @@
+--require rspec-flamingo
+--format RSpecFlamingo::Formatter
