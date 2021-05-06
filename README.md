@@ -1,6 +1,6 @@
 # rspec-flamingo
 
-A custom rspec formatter that just outputs 🦩. This is made from an inside joke and should not be used in any sane workplace.
+A custom rspec formatter that just outputs 🦩 for everything. This is made from an inside joke and should not be used in any sane workplace.
 
 ### Install the gem
 
