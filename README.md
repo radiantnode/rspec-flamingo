@@ -8,7 +8,7 @@ A custom RSpec formatter that just outputs 🦩 for everything. This is made fro
 git clone https://github.com/radiantnode/rspec-flamingo.git
 cd rspec-flamingo
 gem build rspec-flamingo.gemspec
-gem install rspec-flamingo-0.0.0.gem
+gem install rspec-flamingo-*.gem
 ```
 
 ### Enabling the flamingo 🦩
