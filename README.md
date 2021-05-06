@@ -29,6 +29,6 @@ Or if you are brave enable it in your `.rspec` file:
 Now you have the flamingo! 🦩 🎉
 
 ```
-rspec --require rspec-flamingo --format RSpecFlamingo::Formatter
+rspec
 🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩
 ```
