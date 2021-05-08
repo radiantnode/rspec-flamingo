@@ -1,9 +1,11 @@
+# frozen_string_literal: true
+
 module RSpecFlamingo
   class Formatter
     RSpec::Core::Formatters.register self, :example_passed, :example_failed, :example_pending, :dump_failures,
                                      :dump_summary
 
-    FLAMINGO = '🦩'.freeze
+    FLAMINGO = '🦩'
 
     def initialize(output)
       @output = output
