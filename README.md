@@ -34,3 +34,17 @@ Now you have the flamingo! 🦩 🎉
 rspec
 🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩🦩
 ```
+
+### Configuration
+
+You can customize the emoji and summary output by defining a configuration block in your `spec_helper.rb`.
+
+```ruby
+RSpecFlamingo.configure do |config|
+  config.example_passed_emoji = '🎉'
+  config.example_failed_emoji = '🐊'
+  config.example_pending_emoji = '👷'
+  config.hide_summary = true   # Hide default RSpec progress formatter summary
+  config.hide_failures = true  # Hide default RSpec progress formatter failures
+end
+```
