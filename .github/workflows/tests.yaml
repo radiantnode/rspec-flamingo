@@ -1,0 +1,14 @@
+name: Tests
+on: [pull_request]
+jobs:
+  rspec-test:
+    name: RSpec
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6.3
+          bundler-cache: true
+      - name: Run tests
+        run: bundler exec rspec
