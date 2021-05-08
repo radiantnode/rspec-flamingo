@@ -6,11 +6,9 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v1
-      - uses: actions/setup-ruby@v1
+      - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.6.3
-      - name: Install dependencies
-        run: |
-          bundle install
+          bundler-cache: true
       - name: Run tests
         run: bundler exec rspec
