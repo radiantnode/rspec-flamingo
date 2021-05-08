@@ -1,5 +1,7 @@
 # rspec-flamingo
 
+![](https://msimmons.s3.amazonaws.com/github/rspec-flamingo/rspec-flamingo.gif)
+
 A custom RSpec formatter that just outputs 🦩 for everything. This is made from an inside joke and should not be used in any sane workplace.
 
 ### Install the gem
