@@ -16,10 +16,6 @@ module RSpecFlamingo
     @configuration ||= Configuration.new
   end
 
-  def self.reset!
-    self.configuration = nil
-  end
-
   class Configuration
     attr_accessor :example_passed_emoji, :example_failed_emoji, :example_pending_emoji, :hide_summary, :hide_failures
 
