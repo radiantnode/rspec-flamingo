@@ -1,8 +1,6 @@
 # frozen_string_literal: true
 
 module RSpecFlamingo
-  FLAMINGO = '🦩'
-
   class << self
     attr_accessor :configuration
   end
@@ -17,6 +15,8 @@ module RSpecFlamingo
   end
 
   class Configuration
+    FLAMINGO = '🦩'
+
     attr_accessor :example_passed_emoji, :example_failed_emoji, :example_pending_emoji, :hide_summary, :hide_failures
 
     def initialize
