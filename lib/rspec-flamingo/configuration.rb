@@ -1,16 +1,16 @@
 # frozen_string_literal: true
 
 module RSpecFlamingo
-  class << self
-    attr_accessor :configuration
-  end
+  extend self
 
-  def self.configure
+  attr_accessor :configuration
+
+  def configure
     self.configuration ||= Configuration.new
     yield(configuration)
   end
 
-  def self.configuration
+  def configuration
     @configuration ||= Configuration.new
   end
 
