@@ -1,6 +1,6 @@
 # rspec-flamingo
 
-![](https://msimmons.s3.amazonaws.com/github/rspec-flamingo/rspec-flamingo.gif)
+<img width="498" height="278" alt="f088d092c3765d2dd641acaceffe0969" src="https://github.com/user-attachments/assets/26b7cb27-03b2-454e-a2a7-d9eb08da744b" />
 
 A custom RSpec formatter that just outputs 🦩 for everything. This is made from an inside joke and should not be used in any sane workplace.
 
